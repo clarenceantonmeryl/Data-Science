@@ -217,13 +217,13 @@ def clean_data(df):
     pass
 
 
-data = get_data()
-save_data(data)
-# data = get_data_from_json()
-# print(data.head())
-# print(data.tail())
+# data = get_data()
+# save_data(data)
+data = get_data_from_json()
+print(data.head())
+print(data.tail())
 
 # draw_pie_chart(data)
 
 
-print(remove_html_tags(data.at[2, 'MESSAGE']))
+# print(remove_html_tags(data.at[2, 'MESSAGE']))

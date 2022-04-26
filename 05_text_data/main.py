@@ -217,9 +217,9 @@ def clean_data(df):
     pass
 
 
-# data = get_data()
-# save_data(data)
-data = get_data_from_json()
+data = get_data()
+save_data(data)
+# data = get_data_from_json()
 # print(data.head())
 # print(data.tail())
 
